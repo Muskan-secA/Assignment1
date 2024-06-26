@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Hobby - Photography</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        color: black;
+        background-color: white;
+        
+    }
+    
+    header {
+        background-color: green;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+main section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+    main {
+        padding: 20px;
+    }
+    
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    table, th, td {
+        border: 1px solid black;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: white;
+        color: black;
+    }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Photography Hobby</h1>
+        <nav>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About My Hobby</h2>
+            <p>Photography is the art, application, and practice of creating durable images by recording light...</p>
+        </section>
+
+        <section id="equipment">
+            <h2>Equipment I Use</h2>
+            <ul>
+                <li>Camera</li>
+                <li>Lens</li>
+                <li>Tripod</li>
+                <li>Filters</li>
+            </ul>
+        </section>
+<section>
+    <h2>Photography Gear</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camera</td>
+                <td>High-resolution digital camera</td>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <td>Lens</td>
+                <td>50mm prime lens</td>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <td>Tripod</td>
+                <td>Adjustable tripod stand</td>
+                <td>$100</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+        <section id="tips">
+            <h2>Photography Tips</h2>
+            <ol>
+                <li>Understand Your Camera Settings</li>
+                <li>Practice Composition Techniques</li>
+                <li>Learn About Lighting</li>
+                <li>Experiment with Different Angles</li>
+            </ol>
+        </section>
+        <h1>Photography Hobby</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section>
+            <h2>Photo Gallery</h2>
+            <img src="https://th.bing.com/th/id/OIP.Oc0tQ5qsHMHeoljUmhjdegAAAA?w=255&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="A beautiful landscape">
+            <img src="https://th.bing.com/th/id/OIP.3R2tWnRbEedlgObdzERawAHaEK?w=331&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="A close-up of a flower">
+            <img src="https://th.bing.com/th/id/OIP.AlaZn9_r0BjR3LNNxJyOXQHaHa?pid=ImgDet&w=208&h=208&c=7&dpr=1.5" alt="A stunning sunset">
+        </section>
+        <section>
+            <h2>Video</h2>
+            <video controls>
+                <source src="https://www.youtube.com/shorts/5GlgIRLQ96g?feature=share" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Photography Hobby by Muskan</p>
+    </footer>
+</body>
+</html>
