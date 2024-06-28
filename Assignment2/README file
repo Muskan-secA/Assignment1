@@ -1,0 +1,25 @@
+# TechWave Landing Page
+
+## Overview
+ In this project, a responsive landing page for TechWave company preparation. This would include CSS animations along with responsiveness based on screen size using media queries. The design for this project follows a consistent user interface on desktop, tablet, and mobile devices.
+
+## Features
+ • Semantic elements of HTML5: It provides clean and organized layout of content on the website.
+• CSS Animations: applied for button hover effect, loading animation as part of UI to enhance the user's experience.
+Responsive design supports desktop, tablet, and mobile devices, by using media queries. It sustains a color scheme and typography, offers an individual design for navigation, sections, and the footer.
+
+## Design Decisions
+**Color Scheme**: Dark headers and footers provide modernity with light-coloured backgrounds for content sections and make the page look professional.
+**Typography**: Simple and readable font brings better readability.
+**Layout**: A main central container in order to align the content and assure a clean and organized layout.
+**Animations**: Subtle animations for the key heading and buttons to enhance user interaction.
+
+## How to View the Project
+1. Download or clone the repository.
+2. Open the `Assignment2.html` file in your web browser.
+
+## File Structure
+- `Assignment2.html`: The main HTML file with the page structure.
+
+## Author
+TechWave Team
